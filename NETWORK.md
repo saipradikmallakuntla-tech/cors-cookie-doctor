@@ -1,19 +1,30 @@
 # AI & IT satellite network
 
-Owner: [saipradikmallakuntla-tech](https://github.com/saipradikmallakuntla-tech)
+Owner: [saipradikmallakuntla-tech](https://github.com/saipradikmallakuntla-tech).
+
+## Current restoration batch — 2026-11-14 UTC
+Batch: `zion-restoration-2026-11-14-en-es-pt`. This satellite remains an independent, English-language utility; the hub offers complete static language views:
+
+[English hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/) · [Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/).
 
 | Entry | Live HTTPS app | Source |
 | --- | --- | --- |
 | Central hub | https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/ | https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub |
-| LLM Stream Inspector | https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/ | https://github.com/saipradikmallakuntla-tech/llm-stream-inspector |
-| Agent Retry Safety Lab | https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/ | https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab |
+| Stream Inspector | https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/ | https://github.com/saipradikmallakuntla-tech/llm-stream-inspector |
+| Retry Safety Lab | https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/ | https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab |
 | CORS & Cookie Doctor | https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/ | https://github.com/saipradikmallakuntla-tech/cors-cookie-doctor |
 
-## Distinct responsibilities
-- Stream Inspector reconstructs saved LLM protocol streams; it does not route or evaluate models.
-- Retry Safety Lab models request amplification and idempotency retention; it does not run agents or chaos experiments.
-- CORS & Cookie Doctor explains browser access/session policy; it does not monitor uptime, scan TLS, or diff API schemas.
+## Complementary responsibilities
+- Stream Inspector: saved LLM protocol streams; no routing or model evaluation.
+- Retry Safety Lab: request amplification and idempotency retention; no live agents or chaos experiments.
+- CORS & Cookie Doctor: browser access and cookie-policy reasoning; no uptime monitoring, TLS scanning, or API schema diffing.
 
-All interfaces link directly to each sibling and the owner-supplied central hub. Links never transfer inputs. The hub repository was not accessible at provisioning time and is not created or modified by this three-app batch.
+Every interface links directly to the other three nodes: 12 directed edges across four apps, not 12 different products. Ordinary canonical HTTPS links never transfer captures, prompts, headers, cookies, secrets, or scenario inputs. Each app deploys independently; no common backend or shared hosted script is required.
 
-Broader reference network: [Zion Tech Group](https://ziontechgroup.com/) · [original catalog](https://github.com/Zion-support/zion-app-network/blob/main/CATALOG.md). These are independent complementary tools; outbound links do not imply upstream registration or endorsement.
+## Verification and continuation
+Fresh live verification completed at **2026-11-14 20:28:16 UTC**: all four sites and the hub's three language views returned HTTPS HTTP 200, all 12 navigation edges were present, and runtime files matched anchored GitHub sources. This satellite passed **14/14** built-in checks in Node and through its live Chromium test button; the three satellites passed **33/33** in each environment. Evidence is point-in-time, not monitoring, security certification, or proof of browser conformance.
+
+[Local restoration checkpoint](NETWORK_RESTORATION_BATCH.md) · [Hub batch summary](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK_RESTORATION_BATCH.md) · [Dated verification receipt](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/DEPLOYMENT_VERIFICATION.json).
+
+## Historical scope and boundaries
+The hub was unavailable during the original three-app provisioning run; that historical note is not a current outage. The hub is now deployed at the addresses above. This update changes documentation only, not satellite HTML, CSS, or diagnostic engines. Broader references such as [Zion Tech Group](https://ziontechgroup.com/) and the [original catalog](https://github.com/Zion-support/zion-app-network/blob/main/CATALOG.md) remain separate. No third-party repository, catalog, upstream registration, or DNS setting is modified; outbound references do not imply endorsement.
