@@ -1,21 +1,38 @@
-# Batch 99 · seven-node network
+# CORS & Cookie Doctor — network and editorial contract
 
-Owner: [saipradikmallakuntla-tech](https://github.com/saipradikmallakuntla-tech). This node models browser response access and cookie eligibility separately; its rule engine, tests and stylesheet are unchanged.
+Owner: saipradikmallakuntla-tech  
+Editorial baseline: 2026-11-15 UTC  
+Batch: `zion-editorial-operations-2026-11-15-en-es-pt`
 
-The complete prior network document is preserved **byte-for-byte** in [NETWORK_PRE_BATCH_99.md](NETWORK_PRE_BATCH_99.md). Its dated observations and four-node scope remain historical, not current release evidence. Existing README scenarios and historical release files are retained. The missing `#batch-22-integration` incoming recipe target is repaired in the current HTML without changing policy logic.
+## Four-repository documentation scope
 
-## Current nodes and direct navigation
-- [Hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/)
-- [Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/)
-- [Retry Safety Lab](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/)
-- [CORS Doctor](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/)
-- [Token Budget Lab](https://saipradikmallakuntla-tech.github.io/prompt-token-budget-lab/)
-- [Schema Drift Auditor](https://saipradikmallakuntla-tech.github.io/tool-schema-drift-auditor/)
-- [Webhook Replay Guard](https://saipradikmallakuntla-tech.github.io/webhook-replay-guard/)
+This node reasons separately about browser response access and cookie conditions. The hub provides context, Stream inspects approved saved structural evidence, and Retry models uncertain outcomes and retention. Only README.md and this NETWORK.md change here. No software, runtime, tests, configuration, Pages or DNS change; no browser or test scripts run.
 
-Each root page links directly to the other six nodes: **42 non-self directed edges**, not 42 apps. Each repository is independent, with local HTML/CSS/JS, `.nojekyll`, `main:/` Pages and HTTPS enforcement. No shared runtime, custom domain, DNS/CNAME changes, third-party edits, or upstream registration.
+| Node | Documentation | Documented live destination |
+| --- | --- | --- |
+| Hub | [README](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/README.md) / [NETWORK](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK.md) | [Hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) |
+| Stream | [README](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/README.md) / [NETWORK](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector/blob/main/NETWORK.md) | [Stream](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/) |
+| Retry | [README](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/README.md) / [NETWORK](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab/blob/main/NETWORK.md) | [Retry](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/) |
+| CORS | [README](README.md) | [CORS](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/) |
 
-## Localized discovery and handoffs
-[English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/batch-99-discovery.html) · [Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/batch-99-discovery.html) · [Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/batch-99-discovery.html). Hub/discovery views are fully localized; utility interfaces remain English-only. App navigation carries no inputs. Discovery collects predefined categories only; copy/export and mailto drafts are user-triggered, omit raw evidence, and never send email automatically. Review before sharing.
+Links are documented destinations, not current availability, runtime or live-edge checks. Four nodes imply 12 possible non-self directed relationships, not 12 products. Navigation transfers no diagnostic inputs.
 
-Token counts are estimates, schema drift is a partial model, and webhook replay is a sequential simulation. No correctness, security, production protection or exactly-once guarantee. See the hub's [Batch 99 release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/BATCH_99_NETWORK_EXPANSION_RELEASE.md). HTTP checks are dated observations, not monitoring.
+## Locale and source contract
+
+Complete editorial sources: [EN](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/content/en.md), [ES](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/content/es.md), [PT](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/content/pt.md). Existing hub views are documented in EN/ES/PT; this utility interface remains **English-only**.
+
+[Portfolio status](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/PORTFOLIO_STATUS.md) owns chronology, scope and evidence gaps. [Restoration controls](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/MULTILINGUAL_CONTENT_RESTORATION.md) own provenance, terminology and parity. Editorial localization is not a software release or professional sign-off.
+
+## Manual handoff boundary
+
+If a response is hidden after possible execution, carry only synthetic method, origin/site relationship, credential mode, policy findings and known/unknown completion to Retry. Reconcile actual server outcomes before replay. If saved framing needs explanation, use Stream with an approved sanitized capture. CORS is not authorization or consent; cookie eligibility is not storage/transmission proof. Never blindly reflect Origin or automatically repeat a mutation. Links provide no sanitizer, upload, shared backend or execution ledger and must contain no real cookie, header, token or payload values.
+
+## Preserved history and wider network
+
+The complete earlier network document remains unchanged in [NETWORK_PRE_BATCH_99.md](NETWORK_PRE_BATCH_99.md). The [2026-11-14 restoration checkpoint](NETWORK_RESTORATION_BATCH.md) is unchanged. Earlier reported checks and statements about runtime anchor repairs remain historical; this editorial cycle performs no HTML repair or fresh verification.
+
+Earlier Batch 99 notes describe seven repositories/six utilities, with Prompt Token Budget Lab, Tool Schema Drift Auditor and Webhook Replay Guard in addition to the four scoped nodes. Those three repositories are outside this assignment. Forty-two directed edges describes the wider topology, not a fresh observed graph or 42 apps. Described discovery/copy/export/mailto behavior is not tested here; email drafts do not send automatically. Six historical roadmap ideas remain proposals.
+
+The referenced Batch 99 report was absent from the reviewed hub tree, with Batch 22 evidence also unresolved at portfolio level. Use the [evidence register](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/PORTFOLIO_STATUS.md) instead of absent targets as proof; preserve dated caveats and request authentic receipts rather than inventing success.
+
+Each repository remains independent. This documentation adds no backend, shared runtime, telemetry, persistence, model API or third-party changes. Offline rules are not connectivity, security, browser-conformance, semantic-correctness, certification or exactly-once guarantees. Private decisions and service receipts stay in approved private tracking.
