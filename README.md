@@ -51,3 +51,10 @@ The referenced Batch 99 final report was absent from the captured hub tree; Batc
 Live destinations, not fresh checks: [Hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Stream](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/) · [Retry](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/).
 
 Keep personal data, credentials, customer captures and real cookie/header values out of public examples and navigation URLs. These are offline aids, not proof of connectivity, browser conformance, security, authorization, compliance or exactly-once behavior. No monitoring, SLA, professional advice, third-party modification, upstream registration or endorsement is implied.
+
+## Legal, Compliance & Care editorial and promotion package — 2026-11-15
+
+- [Editorial plan: audiences, claims, review gates and four-part calendar](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/LEGAL_COMPLIANCE_CARE_EDITORIAL_PLAN.md)
+- [English, Spanish and Portuguese promotion copy and channel drafts](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/LEGAL_COMPLIANCE_CARE_PROMOTION_COPY.md)
+
+Repository publication is authorized; promotional assets are published for review, not approved for distribution. Human language/domain sign-off remains pending. These are nine non-advisory documentation practices, not nine apps. This utility interface remains English-only. Existing source decks, historical archives and software are unchanged by this package.
