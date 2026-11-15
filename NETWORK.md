@@ -39,3 +39,33 @@ Illustrative deployment scenarios and reproducible synthetic diagnostics for the
 - [Dated release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/CASE_STUDIES_CYCLE_RELEASE.md)
 
 The hub documentation is fully available in EN/ES/PT; this utility interface remains English-only. Links carry no diagnostic input. This cycle changes only `index.html`, `README.md`, and `NETWORK.md` in this repository; `app.js` and `styles.css` are unchanged. Reference outcomes are synthetic and point-in-time, not an SLA, security certification, browser-conformance proof, or exactly-once guarantee.
+
+## Architecture and diagnostic continuation — 2026-11-15
+
+Three practical checks for the existing engine, not new functionality or production guarantees:
+
+### Credentialed preflight
+- **Setup:** Compare synthetic wildcard and explicitly trusted-origin fixtures for a credentialed cross-origin JSON request.
+- **Expected finding:** Review preflight method/header allowance separately from response access; a wildcard origin is not valid for credentialed access.
+- **Interpretation and limits:** A simple request can reach the server even if JavaScript cannot read its response. Never fix this by blindly reflecting Origin; CORS is not authorization.
+
+### Site versus origin
+- **Setup:** State the actual schemeful-site relationship; compare cross-site Lax with Secure SameSite=None under the same CORS context.
+- **Expected finding:** CORS may pass while a cookie is withheld. Cross-origin does not by itself mean cross-site.
+- **Interpretation and limits:** Eligibility is not proof that a cookie was stored or sent. Public-suffix and partition-key details require additional context.
+
+### Third-party policy and HttpOnly
+- **Setup:** Compare third-party-cookie blocking with it disabled, keeping cookie attributes fixed; inspect an HttpOnly candidate.
+- **Expected finding:** Third-party policy can still block a SameSite=None candidate. HttpOnly prevents script access, not browser transmission.
+- **Interpretation and limits:** No request is sent or cookie set. Confirm real behavior in authorized DevTools; never paste live tokens, and review value-omitting exports.
+
+### Continue through the owned network
+- [Inspect stream framing](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes)
+- [Inspect retry amplification](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/#diagnostic-notes)
+- [Architecture and roadmap — English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/changelog.html#architecture)
+- [Arquitectura y hoja de ruta — Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/changelog.html#architecture)
+- [Arquitetura e roteiro — Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/changelog.html#architecture)
+
+[Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Existing case studies](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/case-studies.html) · [Batch release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK_INTERLINK_BATCH_RELEASE.md)
+
+All six roadmap candidates remain proposals, not launched apps. Links carry no diagnostic inputs. EN/ES/PT parity applies to hub documentation; this utility interface remains English-only. This content-only batch preserves `app.js` and `styles.css`, existing showcases, and historical dated evidence. No third-party repository or Pages/DNS setting is changed.
