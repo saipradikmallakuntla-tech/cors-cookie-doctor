@@ -112,3 +112,17 @@ Use synthetic or approved sanitized evidence. Review summaries manually: sanitiz
 [Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes) · [Agent Retry Safety Lab](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/#diagnostic-notes)
 
 [Diagnostics cycle release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/DIAGNOSTICS_MATRIX_RELEASE.md). Existing scenarios, case studies, architecture links, engines and styles are preserved. No third-party repository or Pages/DNS setting is changed.
+
+
+## Batch 99 — expanded seven-node network
+
+This current expansion adds three independent browser-local utilities; all earlier dated notes above remain historical. The original analysis engine and stylesheet are unchanged. No third-party repositories, shared runtime, custom domains or diagnostic URL parameters are introduced.
+
+- [Zion AI Apps Hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [source](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub)
+- [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/) · [source](https://github.com/saipradikmallakuntla-tech/llm-stream-inspector)
+- [Agent Retry Safety Lab](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/) · [source](https://github.com/saipradikmallakuntla-tech/agent-retry-safety-lab)
+- [Prompt Token Budget Lab](https://saipradikmallakuntla-tech.github.io/prompt-token-budget-lab/) · [source](https://github.com/saipradikmallakuntla-tech/prompt-token-budget-lab)
+- [Tool Schema Drift Auditor](https://saipradikmallakuntla-tech.github.io/tool-schema-drift-auditor/) · [source](https://github.com/saipradikmallakuntla-tech/tool-schema-drift-auditor)
+- [Webhook Replay Guard](https://saipradikmallakuntla-tech.github.io/webhook-replay-guard/) · [source](https://github.com/saipradikmallakuntla-tech/webhook-replay-guard)
+
+[Discovery EN](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/batch-99-discovery.html) · [ES](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/batch-99-discovery.html) · [PT](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/batch-99-discovery.html). Use only sanitized, manually reviewed evidence. Copy/export/mailto drafts omit raw diagnostic inputs; no email is sent automatically. The full graph has seven repository nodes and 42 non-self directed links, not 42 apps. New estimates and simulations are not tokenization, compatibility, security or exactly-once guarantees. See the hub's `BATCH_99_NETWORK_EXPANSION_RELEASE.md` for dated evidence.
