@@ -69,3 +69,33 @@ Three practical checks for the existing engine, not new functionality or product
 [Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Existing case studies](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/case-studies.html) · [Batch release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK_INTERLINK_BATCH_RELEASE.md)
 
 All six roadmap candidates remain proposals, not launched apps. Links carry no diagnostic inputs. EN/ES/PT parity applies to hub documentation; this utility interface remains English-only. This content-only batch preserves `app.js` and `styles.css`, existing showcases, and historical dated evidence. No third-party repository or Pages/DNS setting is changed.
+
+## Failure-mode diagnostics and cross-app triage — 2026-11-15
+
+Batch: `zion-diagnostics-matrix-2026-11-15-en-es-pt`.
+
+Use synthetic or approved sanitized evidence. Review summaries manually: sanitization is not automatic. Links carry no diagnostic inputs, uploads, or shared state. Hub guides have full EN/ES/PT coverage; this utility interface remains English-only.
+
+### Blocked response with unknown completion
+
+- **Trigger:** The response is unreadable but a simple or approved preflighted request may have executed.
+- **Carry manually:** Method, synthetic origin/site relationship, credential mode, policy findings, and known/unknown completion; no header values or tokens.
+- **Next action and limits:** Model ambiguous response loss with stable intent identity and bounded retry layers. Reconcile actual server state before replay; CORS failure is not proof of no side effect.
+- **Continue:** [Agent Retry Safety Lab](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/#diagnostic-notes)
+
+### Access understood; inspect saved framing
+
+- **Trigger:** CORS access and cookie eligibility are separated, but saved stream structure still needs inspection.
+- **Carry manually:** Synthetic policy summary, adapter name, and timestamp availability only; move no raw response or cookie data through links.
+- **Next action and limits:** Inspect an approved sanitized SSE/NDJSON capture locally. Missing timestamps are not zero latency; cookie eligibility does not prove storage/transmission or complete stream delivery.
+- **Continue:** [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes)
+
+### Matrix languages and reciprocal network
+
+- [Diagnostics matrix — English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/diagnostics-matrix.html#triage-cors)
+- [Matriz de diagnóstico — Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/diagnostics-matrix.html#triage-cors)
+- [Matriz de diagnóstico — Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/diagnostics-matrix.html#triage-cors)
+
+[Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes) · [Agent Retry Safety Lab](https://saipradikmallakuntla-tech.github.io/agent-retry-safety-lab/#diagnostic-notes)
+
+[Diagnostics cycle release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/DIAGNOSTICS_MATRIX_RELEASE.md). Existing scenarios, case studies, architecture links, engines and styles are preserved. No third-party repository or Pages/DNS setting is changed.
